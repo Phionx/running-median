@@ -5,7 +5,7 @@
 
 import java.util.ArrayList;
 
-public class ALHeap {
+public class ALMinHeap {
 
     //instance vars
     private ArrayList<Integer> _heap; //underlying container is array of Integers
@@ -200,52 +200,6 @@ public class ALHeap {
 
     //main method for testing
     public static void main(String[] args) {
-
-        ALHeap pile = new ALHeap();
-
-        pile.add(2);
-        System.out.println(pile);
-        pile.add(4);
-        System.out.println(pile);
-        pile.add(6);
-        System.out.println(pile);
-        pile.add(8);
-        System.out.println(pile);
-        pile.add(10);
-        System.out.println(pile);
-        pile.add(1);
-        System.out.println(pile);
-        pile.add(3);
-        System.out.println(pile);
-        pile.add(5);
-        System.out.println(pile);
-        pile.add(7);
-        System.out.println(pile);
-        pile.add(9);
-        System.out.println(pile);
-
-        System.out.println("removing " + pile.removeMin() + "...");
-        System.out.println(pile);
-        System.out.println("removing " + pile.removeMin() + "...");
-        System.out.println(pile);
-        System.out.println("removing " + pile.removeMin() + "...");
-        System.out.println(pile);
-        System.out.println("removing " + pile.removeMin() + "...");
-        System.out.println(pile);
-        System.out.println("removing " + pile.removeMin() + "...");
-        System.out.println(pile);
-        System.out.println("removing " + pile.removeMin() + "...");
-        System.out.println(pile);
-        System.out.println("removing " + pile.removeMin() + "...");
-        System.out.println(pile);
-        System.out.println("removing " + pile.removeMin() + "...");
-        System.out.println(pile);
-        System.out.println("removing " + pile.removeMin() + "...");
-        System.out.println(pile);
-        System.out.println("removing " + pile.removeMin() + "...");
-        System.out.println(pile);
-        System.out.println("removing " + pile.removeMin() + "...");
-        System.out.println(pile);
     }//end main()
 
 }//end class ALHeap
