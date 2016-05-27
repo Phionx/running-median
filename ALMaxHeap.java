@@ -13,7 +13,7 @@ public class ALMaxHeap {
     /*****************************************************
      * default constructor  ---  inits empty heap
      *****************************************************/
-    public ALHeap() {
+    public ALMaxHeap() {
         _heap = new ArrayList<Integer>();
     }
 

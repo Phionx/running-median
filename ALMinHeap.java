@@ -13,7 +13,7 @@ public class ALMinHeap {
     /*****************************************************
      * default constructor  ---  inits empty heap
      *****************************************************/
-    public ALHeap() {
+    public ALMinHeap() {
         _heap = new ArrayList<Integer>();
     }
 
